@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.background {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#clock-body {
+  height: 600px;
+  width: 600px;
+  border: 25px solid rgb(26, 25, 25);
+  box-shadow: -37px -35px 37px -18px rgba(41, 40, 40, 0.86),
+    51px 44px 60px -70px rgba(57, 51, 51, 0.73);
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hours {
+  color: rgb(90, 88, 88);
+  font-size: 50px;
+  opacity: 50%;
+  position: absolute;
+}
+.hour12 {
+  position: absolute;
+  top: 0;
+}
+.hour1 {
+  position: absolute;
+  top: 35px;
+  right: 136px;
+}
+.hour2 {
+  position: absolute;
+  top: 120px;
+  right: 50px;
+}
+.hour3 {
+  position: absolute;
+  right: 5px;
+}
+.hour4 {
+  position: absolute;
+  right: 45px;
+  bottom: 120px;
+}
+.hour5 {
+  position: absolute;
+  right: 135px;
+  bottom: 35px;
+}
+.hour6 {
+  position: absolute;
+  bottom: 5px;
+}
+.hour7 {
+  position: absolute;
+  left: 135px;
+  bottom: 35px;
+}
+.hour8 {
+  position: absolute;
+  left: 45px;
+  bottom: 120px;
+}
+.hour9 {
+  position: absolute;
+  left: 5px;
+}
+
+.hour10 {
+  position: absolute;
+  top: 120px;
+  left: 50px;
+}
+.hour11 {
+  position: absolute;
+  top: 35px;
+  left: 130px;
+}
+.midcircle {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 255px;
+}
+.hour-hand {
+  width: 5px;
+  height: 145px;
+  border: 2px solid white;
+  position: absolute;
+  transform-origin: bottom;
+  top: 135px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.minute-hand {
+  width: 5px;
+  height: 170px;
+  border: 2px solid white;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  position: absolute;
+  transform-origin: bottom;
+  top: 110px;
+}
+.sec-hand {
+  width: 5px;
+  height: 200px;
+  border: 2px solid white;
+  position: absolute;
+  transform-origin: bottom;
+  top: 80px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+.needles {
+  height: 50%;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
